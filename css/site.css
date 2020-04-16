@@ -1,0 +1,90 @@
+/*Configuração do site*/
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+main div { 
+    width: 1000px; 
+    margin: auto; 
+} 
+
+/*seção menu */
+
+/*.menu {
+    position: fixed;
+    width: 100%;
+  }*/
+  
+
+.menu ul {
+    background-color:#86c9f0;
+    list-style:none;
+   
+}
+.menu ul li {
+     display: inline; /* deixa o menu horizontal*/
+}
+
+.menu ul li a {
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    text-decoration: none;
+      color: #ffffff;
+    padding: 25px;
+    
+}
+.menu a:hover { 
+        background-color:#FFFF;
+        color: black;
+
+        
+}
+.menu p{
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    display: inline-block;
+    height: 25px;
+    text-decoration: none;
+      color: #ffffff;
+    padding: 25px;
+    
+}
+
+#lado-direito {
+   
+    float: right;
+}
+
+/*rodape*/
+
+.rodape {
+        background-color: #86c9f0;;
+        color: rgb(0, 0, 0);
+        clear: both;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: 17px;
+        
+}
+.rodape h2{
+        font-size: 30px;
+        font-family: 'Satisfy', cursive;
+        color: #FFFF;
+}
+
+.rodape ul { 
+        color: black; 
+} 
+
+.rodape ul li a { 
+        color: inherit; 
+}
+
+.rodape li { 
+        display: inline-block; 
+        height: 50px; 
+} 
