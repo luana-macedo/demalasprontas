@@ -10,7 +10,7 @@ p{
    
 }
 h3{
-    font-size: 15px;
+    font-size: 20px;
 
 }
 
@@ -32,7 +32,7 @@ h3{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-	left: 180px; /* posiciona a 90px para a esquerda */ 
+    left: 180px; /* posiciona a 90px para a esquerda */ 
     top: 140px;
     
 }

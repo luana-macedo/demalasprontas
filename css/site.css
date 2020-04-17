@@ -15,11 +15,14 @@ main div {
     position: fixed;
     width: 100%;
   }*/
-  
-
+ 
 .menu ul {
     background-color:#86c9f0;
     list-style:none;
+    text-align: center;
+    height: 80px;
+       
+   
    
 }
 .menu ul li {
@@ -42,13 +45,14 @@ main div {
         
 }
 .menu p{
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Satisfy', cursive;
     display: inline-block;
     height: 25px;
     text-decoration: none;
       color: #ffffff;
     padding: 25px;
+     
     
 }
 
