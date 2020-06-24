@@ -5,6 +5,11 @@ h1{
     font-family: 'Satisfy', cursive;
     color:  rgba(0, 0, 0, 0.753);
 }
+main div { 
+    width: 1000px; 
+    margin: auto; 
+   
+} 
 p{
     font-size: 30px;
    
@@ -15,17 +20,13 @@ h3{
 }
 
 /*Imagem inicial*/
-.imagem-inicial{
-    width: 100%;
-    height: 750px;
-    background-image: url(../img/capa2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    opacity : 0.65; 
+#imagem-inicial{
     
+    opacity : 0.80; 
+    width: 100%;
 }
 
-.imagem-inicial h1{
+.frase-inicial h1{
     font-size: 60px;
    /* color: #726969;*/
    color: black;
@@ -36,7 +37,7 @@ h3{
     top: 140px;
     
 }
-.imagem-inicial h2{
+.frase-inicial h2{
     font-size: 40px;
     color: black;
     opacity : 1.0;
@@ -49,9 +50,10 @@ h3{
 }
 #saiba-mais{
     position: absolute; 
-    top: 500px;
-    width: 150px;
-    height: 100px;
+    top: 400px;
+    width: 300px;
+    height: 300px;
+    left: 600px;
    
 }
 
@@ -63,6 +65,7 @@ h3{
     float: left;
     margin-right: 200px;
     box-shadow: 15px 15px 15px 5px rgb(114, 111, 111);
+    transform: rotate(-10deg);
    
 }
 
@@ -80,6 +83,7 @@ h3{
     height: 150px;
     margin-right: 300px;
     box-shadow: 15px 15px 15px 5px rgb(114, 111, 111);
+    
 }
 
 .coluna p{
@@ -100,9 +104,15 @@ h3{
     position: relative;
     
   }
+  .coluna a {
+    text-decoration:none; 
+    color: black;
+      
+  }
  
   .coluna:hover .capa {
     display: block;
+    text-decoration:none; 
   }
   
   .capa {
@@ -112,6 +122,7 @@ h3{
     position: absolute;
     top: 0;
     display: none;
+    text-decoration:none; 
    
   }
 
@@ -133,3 +144,73 @@ h3{
     float: right;
     font-size: 25px;
 }
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .3s;
+}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: .1s;
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	
+	margin:auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+    height: 750px;
+	position: relative;
+}
+
+.slide {
+	
+    position: absolute;
+    width: 100%;
+	height: 100%;
+	opacity: 0;
+    transition: opacity 3s linear;
+    top: 0px;
+    left: 0px;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+@media screen and (max-device-width: 600px) {
+  
+    #saiba-mais{
+        display: none;
+    }
+    #foto-luana{
+       display: none;
+    }
+    .espaco{
+        display: none;
+    }
+   p{
+       font-size: 20px;
+   }
+   main{
+       text-align: center;
+       
+   }
+   .menu ul {
+    
+    height: 150px;
+   
+}
+
+
+}
+

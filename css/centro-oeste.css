@@ -1,0 +1,84 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100%; 
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;;
+    color:  rgba(0, 0, 0, 0.753);
+    text-indent: 3ch;
+  }
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;;
+    color:  rgba(0, 0, 0, 0.753);
+  }
+  main { 
+      width: 1000px; 
+      margin: auto; 
+      padding: 50px;
+      background-color:  rgb(233, 233, 227); 
+     
+  } 
+#imagem-inicial{
+    
+    height: 600px;
+    background-image: url(../img/centro-oeste.jpg);
+    background-repeat: no-repeat;
+    filter: brightness(40%);
+    background-size: 100% 100%;
+    background-color: rgb(255, 255, 255);
+    
+   
+   
+    
+}
+.o img{
+    opacity: 0.65;
+    width: 50%;
+    height: 50%;
+    position: absolute; 
+    top: 100px;
+    left: 350px;
+}
+
+.imagem-inicial h1{
+    font-size: 75px;
+   /* color: #726969;*/
+   color: rgb(255, 249, 249);
+    font-family: 'Anton', sans-serif;
+   /* background-color: #a6abad;*/
+    position: absolute; 
+    left: 400px; /* posiciona a 90px para a esquerda */ 
+    top: 200px;
+}
+.imagem-inicial h2{
+    font-size: 75px;
+   /* color: #726969;*/
+   color: rgb(255, 249, 249);
+    font-family: 'Anton', sans-serif;
+   /* background-color: #a6abad;*/
+    position: absolute; 
+    left: 550px; /* posiciona a 90px para a esquerda */ 
+    top: 400px;
+}
+
+.coluna{
+    text-align: center;
+}
+
+#img1 img{
+    float: right;
+    padding: 20px;
+}
+#img2 img{
+    float: left;
+    padding: 20px;
+}
+
+
+
