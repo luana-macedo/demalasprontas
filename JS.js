@@ -66,19 +66,6 @@ window.onscroll = function() {
   }
   
   
-function backtoTop() {
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
-  }
-  jQuery(function () {
-	jQuery(window).scroll(function () {
-	  if (jQuery(this).scrollTop() > 400) {
-	   $(".menu").addClass("menu-diferente");
-	  } else {
-	   $(".menu").removeClass("menu-diferente");
-	  }
-	});
-  });
 
 
   (function() {
@@ -99,7 +86,7 @@ function backtoTop() {
 			this.timer = null;
 			
 			this.action();
-			this.stopStart();	
+				
 		},
 		_slideTo: function( slide ) {
 			var currentSlide = this.slides[slide];
@@ -135,3 +122,4 @@ function backtoTop() {
 	
 	
 })();
+
