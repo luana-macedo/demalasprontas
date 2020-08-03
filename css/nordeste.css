@@ -18,7 +18,7 @@ p{
     color:  rgba(0, 0, 0, 0.753);
   }
   main { 
-      width: 1000px; 
+      
       margin: auto; 
       padding: 50px;
       background-color:  rgb(233, 233, 227); 
@@ -43,8 +43,8 @@ p{
     width: 40%;
     height: 55%;
     position: absolute; 
-    top: 100px;
-    left: 400px;
+    top: 25%;
+    left: 35%;
 }
 
 .imagem-inicial h1{
@@ -54,8 +54,8 @@ p{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-    left: 450px; /* posiciona a 90px para a esquerda */ 
-    top: 200px;
+    top: 35%;
+    left: 30%;
 }
 
 .imagem-inicial h2{
@@ -65,8 +65,8 @@ p{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-    left: 550px; /* posiciona a 90px para a esquerda */ 
-    top: 400px;
+    top: 60%;
+    left: 35%;
 }
 .coluna{
     text-align: center;

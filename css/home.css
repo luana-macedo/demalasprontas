@@ -6,7 +6,7 @@ h1{
     color:  rgba(0, 0, 0, 0.753);
 }
 main div { 
-    width: 1000px; 
+ 
     margin: auto; 
    
 } 
@@ -235,13 +235,32 @@ display: none;
     
     
 #foto-luana{
-    display: block;
+    width: 300px;
+    height: 350px;
+    margin:2%;
+    box-shadow: none;
+    transform: none;
+    padding: 20px;
+    display: inline-block;
    
+}
+#sobre-mim{
+    background-color: rgb(205, 215, 224);
+    color: rgba(0, 0, 0, 0.644);
+    text-align: center;
+   
+    
+    
+}
+#sobre-mim p{
+
+        font-size: 20px;
+    
 }
 
 .coluna{
    
-    width: 90%;
+    width: 95%;
   
     
     position: relative;
@@ -251,7 +270,6 @@ display: none;
     max-width:100%;
     max-height:100%;
     
-    margin-right: 300px;
   
 }
 .capa {
