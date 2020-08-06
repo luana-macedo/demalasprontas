@@ -2,7 +2,7 @@
 body{
     background-color: rgb(255, 255, 255);
     text-align: inherit;
-    width: 100%;
+    width: 1000px;
    
 }
 p{
@@ -19,7 +19,7 @@ p{
     color:  rgba(0, 0, 0, 0.753);
   }
   main { 
-   
+   width: 70%;
       margin: auto; 
       padding: 50px;
       background-color:  rgb(233, 233, 227); 
@@ -46,7 +46,7 @@ p{
     height: 70%;
     position: absolute; 
     top: 10%;
-    left: 30%;
+    left: 25%;
 }
 
 .imagem-inicial h1{
@@ -66,7 +66,7 @@ p{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-    top: 60%;
+    top: 70%;
     left: 40%;
     
 }
@@ -92,7 +92,9 @@ p{
     @media  (max-width: 1024px){
     
        /* //colocar código de um css maior para a fonte aqui*/
-       
+       main{
+         width: 90%;
+       }
        .menu{
            display: none;
        }
@@ -134,6 +136,7 @@ p{
       .dropdown {
         position: relative;
         display: inline-block;
+        
       }
       
       /* Dropdown Content (Hidden by Default) */

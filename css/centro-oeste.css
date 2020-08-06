@@ -18,7 +18,7 @@ p{
     color:  rgba(0, 0, 0, 0.753);
   }
   main { 
-      
+      width: 70%;
       margin: auto; 
       padding: 50px;
       background-color:  rgb(233, 233, 227); 
@@ -42,8 +42,8 @@ p{
     width: 50%;
     height: 50%;
     position: absolute; 
-    top: 25%;
-    left: 30%;
+    top: 20%;
+    left: 25%;
 }
 
 .imagem-inicial h1{
@@ -63,8 +63,8 @@ p{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-    top: 60%;
-    left: 35%;
+    top: 70%;
+    left: 40%;
 }
 
 .coluna{
@@ -112,6 +112,9 @@ p{
           body{
                 width: 1000px; 
                 margin: auto; 
+          }
+          main{
+            width: 90%;
           }
     }
         /*//alterar posição da seta*/

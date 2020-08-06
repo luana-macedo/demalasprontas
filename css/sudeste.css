@@ -18,7 +18,7 @@ p{
     color:  rgba(0, 0, 0, 0.753);
   }
   main { 
- 
+      width: 70%;
       margin: auto; 
       padding: 50px;
       background-color:  rgb(233, 233, 227); 
@@ -43,8 +43,8 @@ p{
     width: 40%;
     height: 50%;
     position: absolute; 
-    top: 25%;
-    left: 35%;
+    top: 20%;
+    left: 30%;
 }
 
 .imagem-inicial h1{
@@ -64,8 +64,8 @@ p{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-    left: 35%; /* posiciona a 90px para a esquerda */ 
-    top: 55%;
+    left: 40%; /* posiciona a 90px para a esquerda */ 
+    top: 70%;
 }
 .coluna{
     text-align: center;
@@ -113,6 +113,9 @@ p{
           body{
                 width: 100%; 
                 
+          }
+          main{
+            width: 90%;
           }
     }
         /*//alterar posição da seta*/

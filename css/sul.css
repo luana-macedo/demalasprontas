@@ -18,7 +18,7 @@ p{
     color:  rgba(0, 0, 0, 0.753);
   }
   main { 
-      
+      width: 70%;
       margin: auto; 
       padding: 50px;
       background-color:  rgb(233, 233, 227); 
@@ -54,7 +54,7 @@ p{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-    left: 35%; /* posiciona a 90px para a esquerda */ 
+    left: 38%; /* posiciona a 90px para a esquerda */ 
     top: 35%;
 }
 .imagem-inicial h2{
@@ -64,8 +64,8 @@ p{
     font-family: 'Anton', sans-serif;
    /* background-color: #a6abad;*/
     position: absolute; 
-    left: 35%; /* posiciona a 90px para a esquerda */ 
-    top: 60%;
+    left: 40%; /* posiciona a 90px para a esquerda */ 
+    top: 70%;
 }
 .coluna{
     text-align: center;
@@ -111,6 +111,9 @@ p{
           body{
                 width: 1000px; 
                 margin: auto; 
+          }
+          main{
+            width: 90%;
           }
     }
         /*//alterar posição da seta*/
